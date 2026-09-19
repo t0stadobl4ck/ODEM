@@ -1,0 +1,165 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Nike Air Max",
+      "descripcion": "Zapatillas deportivas con tecnología Air Max para máximo confort",
+      "precio": 129.99,
+      "categoria": "Deportivos",
+      "marca": "Nike",
+      "talla": "40-45",
+      "color": "Blanco/Negro",
+      "stock": 48,
+      "imagen": "👟"
+    },
+    {
+      "id": 2,
+      "nombre": "Adidas Ultraboost",
+      "descripcion": "Zapatillas running con amortiguación Boost",
+      "precio": 159.99,
+      "categoria": "Deportivos",
+      "marca": "Adidas",
+      "talla": "38-44",
+      "color": "Negro",
+      "stock": 35,
+      "imagen": "👟"
+    },
+    {
+      "id": 3,
+      "nombre": "Puma RS-X",
+      "descripcion": "Zapatillas urbanas con diseño retro",
+      "precio": 99.99,
+      "categoria": "Casual",
+      "marca": "Puma",
+      "talla": "39-45",
+      "color": "Multicolor",
+      "stock": 40,
+      "imagen": "👟"
+    },
+    {
+      "id": 4,
+      "nombre": "Vans Old Skool",
+      "descripcion": "Clásicas zapatillas skate con rayas laterales",
+      "precio": 69.99,
+      "categoria": "Casual",
+      "marca": "Vans",
+      "talla": "36-44",
+      "color": "Negro/Blanco",
+      "stock": 60,
+      "imagen": "👟"
+    },
+    {
+      "id": 5,
+      "nombre": "Converse Chuck Taylor",
+      "descripcion": "Las icónicas zapatillas altas de lona",
+      "precio": 59.99,
+      "categoria": "Casual",
+      "marca": "Converse",
+      "talla": "35-45",
+      "color": "Rojo",
+      "stock": 75,
+      "imagen": "👟"
+    },
+    {
+      "id": 6,
+      "nombre": "Timberland Classic",
+      "descripcion": "Botas resistentes al agua, perfectas para exteriores",
+      "precio": 189.99,
+      "categoria": "Botas",
+      "marca": "Timberland",
+      "talla": "40-46",
+      "color": "Marrón",
+      "stock": 25,
+      "imagen": "🥾"
+    },
+    {
+      "id": 7,
+      "nombre": "Dr. Martens 1460",
+      "descripcion": "Botas estilo punk rock con suela gruesa",
+      "precio": 169.99,
+      "categoria": "Botas",
+      "marca": "Dr. Martens",
+      "talla": "37-45",
+      "color": "Negro",
+      "stock": 30,
+      "imagen": "🥾"
+    },
+    {
+      "id": 8,
+      "nombre": "Oxford Clásico",
+      "descripcion": "Zapatos formales de cuero para ocasiones especiales",
+      "precio": 149.99,
+      "categoria": "Formal",
+      "marca": "Clarks",
+      "talla": "39-45",
+      "color": "Negro",
+      "stock": 20,
+      "imagen": "👞"
+    },
+    {
+      "id": 9,
+      "nombre": "Derby Italiano",
+      "descripcion": "Elegantes zapatos de vestir hechos a mano",
+      "precio": 199.99,
+      "categoria": "Formal",
+      "marca": "Gucci",
+      "talla": "40-44",
+      "color": "Marrón",
+      "stock": 15,
+      "imagen": "👞"
+    },
+    {
+      "id": 10,
+      "nombre": "New Balance 574",
+      "descripcion": "Zapatillas cómodas para uso diario",
+      "precio": 89.99,
+      "categoria": "Deportivos",
+      "marca": "New Balance",
+      "talla": "38-46",
+      "color": "Gris/Azul",
+      "stock": 45,
+      "imagen": "👟"
+    },
+    {
+      "id": 11,
+      "nombre": "Reebok Classic",
+      "descripcion": "Zapatillas vintage con estilo atemporal",
+      "precio": 79.99,
+      "categoria": "Casual",
+      "marca": "Reebok",
+      "talla": "36-44",
+      "color": "Blanco",
+      "stock": 50,
+      "imagen": "👟"
+    },
+    {
+      "id": 12,
+      "nombre": "Crocs Classic",
+      "descripcion": "Zapatos ligeros y cómodos para el hogar o playa",
+      "precio": 49.99,
+      "categoria": "Casual",
+      "marca": "Crocs",
+      "talla": "35-45",
+      "color": "Azul",
+      "stock": 80,
+      "imagen": "🩴"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "cliente": "Juan Pérez",
+      "items": [
+        {
+          "productoId": 1,
+          "cantidad": 2,
+          "precio": 129.99
+        }
+      ],
+      "total": 259.98,
+      "direccion": "Calle Principal 123",
+      "fecha": "2026-09-19T08:48:55.748Z",
+      "estado": "confirmado"
+    }
+  ]
+}
